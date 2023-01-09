@@ -1,2 +1,1 @@
-# Ticket-Assignment-Automation
-A Python - SQL Integration
+Creates and populates a SQL relational database using Python and ServiceNow REST API calls
