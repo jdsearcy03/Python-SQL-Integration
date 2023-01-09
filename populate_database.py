@@ -2,14 +2,10 @@ from servicenow_functions import *
 from sql_functions import *
 
 #Set Variables
-#pwd = input('Enter MySQL Password:\n')
-#instance = input('Enter ServiceNow Instance:\n')
-#user = input('Enter ServiceNow UserName:\n')
-#password = input('Enter ServiceNow Password:\n')
-pwd = 'MySQLPw0rd@'
-instance = 'dev114547'
-user = 'admin'
-password = 'zV%/Sz0JtX8g'
+pwd = input('Enter MySQL Password:\n')
+instance = input('Enter ServiceNow Instance:\n')
+user = input('Enter ServiceNow UserName:\n')
+password = input('Enter ServiceNow Password:\n')
 
 #Connect MySQL Database
 connection = create_db_connection("localhost", "root", pwd, "ServiceNow")
